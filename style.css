@@ -1,0 +1,168 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f4a261;
+}
+
+h1, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2a2a;
+    padding: 20px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#carshare {
+    font-size: 1.8rem;
+    color: #f4a261;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li:hover {
+    background-color: #f4a261;
+    color: #1b1b1b;
+}
+
+
+#baner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#baner img {
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+    object-fit: cover;
+}
+
+#baner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+#baner-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#baner-text p {
+    font-size: 1.2rem;
+}
+
+
+#dzialanie {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #2a2a2a;
+}
+
+#dzialanie h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #f4a261;
+}
+
+#dzialanie p {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+
+section[id^="step"] {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.h_steps {
+    color: #f4a261;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.steps {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+footer h5 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #f4a261;
+}
+
+.footer p, .footer a {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #bbb;
+}
+
+.footer a:hover {
+    color: #f4a261;
+}
+
+#copy {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
